@@ -13,6 +13,7 @@ public class OptionalTest {
         String answer2 = null;
 
         System.out.println("Non-Empty Optional:" + gender);
+        System.out.println("Non-Empty Optional.isPresent:" + gender.isPresent());
         System.out.println("Non-Empty Optional: Gender value : " + gender.get());
         System.out.println("Empty Optional: " + Optional.empty());
 
