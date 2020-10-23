@@ -6,6 +6,7 @@ import java.util.Optional;
 public class OptionalTest {
 
 
+    
     public static void basicTest(){
 
         Optional<String> gender = Optional.of("MALE");
